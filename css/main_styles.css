@@ -1,0 +1,169 @@
+
+/* Navbar */
+
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+
+    .navbar-right .dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+    .navbar-right .dropdown-menu-left {
+        right: auto;
+        left: 0;
+    }
+
+
+    .navbar-right {
+        float: right !important;
+        margin-right: -15px;
+    }
+    .navbar-right ~ .navbar-right {
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 767px) { 
+    .nav>li {
+        text-align: center;
+    }
+
+    .navbar-brand-centered {
+        position: absolute;
+        left: 40%;
+        right: 40%;
+        display: block;
+        width: 160px;
+        text-align: center;
+    }
+
+    .custom-navbar .nav.navbar-nav.navbar-right li > a {
+        padding:8px 5px;
+    }
+    .custom-navbar .navbar-toggle {
+        float: left
+    }
+    .custom-navbar .navbar-header {
+        float: left;
+        width: auto!important;
+    }
+    .custom-navbar .navbar-collapse {
+        clear: both;
+        float: none;
+    }
+
+}
+
+
+.navbar-brand {
+    float:none;
+}
+
+/* End of Navbar */
+
+
+/* Carousel */
+
+.slider-size {
+    height: 480px; /* This is your slider height */
+}
+.carousel {
+    width:100%; 
+    margin:0 auto; /* center your carousel if other than 100% */ 
+}
+
+/* End of Carousel */
+
+/* Body Background */
+
+body{
+    //background-color: #FCCE43;
+
+    background-color: #EEEEEE;
+}
+
+/* End of Body Background*/
+
+
+
+/* Change BG Color
+
+#column_1, #column_2, #column_3{
+    background-color: white;
+    border: 1px solid #d8d8d8;
+}
+
+#column_1:hover, #column_2:hover, #column_3:hover{
+    background-color: grey;
+}
+ End of Change BG Color */
+
+.white_bg{
+    background-color: white;
+    border: 1px solid #d8d8d8;
+}
+
+.grey_bg{
+    background-color: grey;
+    border: 1px solid #d8d8d8;
+}
+
+.light_grey_bg{
+    background-color: #EEEEEE;
+    border: 1px solid #d8d8d8;
+}
+
+/* End of Change BG Color */
+
+/* */
+.btn-no-border{
+    border: transparent;
+}
+/* Font Color */
+.yellow_clr{
+    color: #FCCE43
+}
+
+
+/* Footer */
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+/* End of Footer */
+
+
+/* FB and twitter News Feed */
+
+.fb-comments, .fb-comments iframe[style], .fb-comments span {
+    width: 100% !important;
+}
+
+iframe[id^='twitter-widget-']{
+    width:100%;
+}

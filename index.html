@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MYX TV</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Cary Bondoc" />
+        <meta name="description" content="This is just a sample MYX website" />
+        <meta name="keywords"  content="Sample MYX Website" />
+
+
+        <!--
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        -->
+
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main_styles.css">
+    </head>
+    <body>
+
+        <!-- FB Feed -->
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1558269114455356";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- End -->
+
+
+        <nav class="navbar navbar-inverse custom-navbar" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand navbar-brand-centered">
+                        <img src="images/myx_logo.png" alt="myx logo" />
+                    </div>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shows<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Supermodelme: Femme Fatale</a></li>
+                                <li><a href="#">Bagged</a></li>
+                                <li><a href="#">I'm Asian American and...</a></li>
+                                <li><a href="#">Call to Cosplay</a></li>
+                                <li><a href="#">Cheap Date</a></li>
+                                <li><a href="#">Celebrity Scoop</a></li>
+                                <li><a href="#">Eat Your Words</a></li>
+                                <li><a href="#">Inkigayo</a></li>
+                                <li><a href="#">TKM: The Boston</a></li>
+                                <li><a href="#">K-Pop Incubation</a></li>
+                                <li><a href="#">Scoompi Awards 2014</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>     
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div class="container">
+            <div id="fixed" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#fixed" data-slide-to="0" class="active"></li>
+                    <li data-target="#fixed" data-slide-to="1" class=""></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div style="background:url(images/carousel_1.jpg) center center; background-size:cover;" class="slider-size">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div style="background:url(images/carousel_2.jpg) center center; background-size:cover;" class="slider-size">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="javascript:void(0)" data-slide="prev" data-target="#fixed">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="javascript:void(0)" data-slide="next" data-target="#fixed">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+
+            <div class="col-xs-4 text-center grey_bg" id="column_1" >
+                TONIGHT <br /> <p class="yellow_clr">Full Schedule ></p>
+            </div>
+
+            <div class="col-xs-4 text-center white_bg" id="column_2" >
+                5:00 <small>PM</small> <br /> <p class="yellow_clr">Cheap Date</p>
+            </div>
+
+            <div class="col-xs-4 text-center white_bg" id="column_3" >
+                6:00 <small>PM</small> <br /> <p class="yellow_clr">Bagged</p>
+            </div>
+
+            <div class="col-xs-12 light_grey_bg">
+                <img class="center-block" src="holder.js/320x50" alt="sample ads"/>
+            </div>
+
+            <div class="col-xs-12 text-center grey_bg">
+                <i class="fa fa-desktop fa-2x"></i> WATCH FULL EPISODES
+            </div>
+
+
+            <div class="col-xs-10 text-center white_bg">
+                <h6>
+                    Cheap Date
+                    <small>(Episode 6)</small>
+                </h6>
+            </div>
+            <div class="col-xs-2 text-center white_bg">
+                <button type="button" class="btn btn-default btn-block btn-no-border">
+                    <i class="fa fa-caret-right"></i>
+                </button>
+            </div>
+
+            <div class="col-xs-10 text-center white_bg">
+                <h6>
+                    TKM: The Boston
+                    <small>(Episode 4)</small>
+                </h6>
+            </div>
+            <div class="col-xs-2 text-center white_bg">
+                <button type="button" class="btn btn-default btn-block btn-no-border">
+                    <i class="fa fa-caret-right"></i>
+                </button>
+            </div>
+
+            <div class="col-xs-10 text-center white_bg">
+                <h6>
+                    Bagged
+                    <small>(Episode 7)</small>
+                </h6>
+            </div>
+            <div class="col-xs-2 text-center white_bg">
+                <button type="button" class="btn btn-default btn-block btn-no-border">
+                    <i class="fa fa-caret-right"></i>
+                </button>
+            </div>
+
+            <div class="col-xs-10 text-center white_bg">
+                <h6>
+                    Call to Cosplay
+                    <small>(Episode 11)</small>
+                </h6>
+            </div>
+            <div class="col-xs-2 text-center white_bg">
+                <button type="button" class="btn btn-default btn-block btn-no-border">
+                    <i class="fa fa-caret-right"></i>
+                </button>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1cTmzDSMQvY"></iframe>
+                </div>
+            </div>
+            <div class="col-xs-12 text-center">
+                <div class="white_bg">
+                    <h4 class="yellow_clr">K-POP INCUBATION</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. </p>
+                </div>
+            </div>
+
+            <div class="col-xs-12">
+                <br />
+            </div>
+
+            <div class="col-xs-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m4BHJvs9aFE"></iframe>
+                </div>
+            </div>
+            <div class="col-xs-12 text-center">
+                <div class="white_bg">
+                    <h4 class="yellow_clr">SOOMA AWARDS</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. </p>
+                </div>
+            </div>
+
+            <div class="col-xs-12">
+                <br />
+            </div>
+
+            <div class="col-xs-12">
+                <div class="row">
+                    <img src="images/sample_image.jpg" class="img-responsive center-block img-rounded" alt="sample picture" />
+                </div>
+            </div>
+
+            <div class="col-xs-12">
+                <br />
+            </div>
+
+            <div class="col-xs-4">
+                <h4 class="text-center">JOIN THE MYX COMMUNITY</h4>
+            </div>
+            <div class="col-xs-2">
+                <img src="images/twitter.jpg" class="img-circle" alt="twitter logo" height="50" width="50"/>
+            </div>
+            <div class="col-xs-2 text-center">
+                <img src="images/facebook.jpg" class="img-circle" alt="twitter logo" height="50" width="50"/>
+            </div>
+            <div class="col-xs-2 text-center">
+                <img src="images/instagram.jpg" class="img-circle" alt="twitter logo" height="50" width="50"/>
+            </div>
+            <div class="col-xs-2 text-center">
+                <img src="images/tumbler.jpg" class="img-circle" alt="twitter logo" height="50" width="50"/>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="well well-lg grey_bg text-center">
+                    <h4 class="text-center">#MyxTv</h4>
+                    <button type="button" class="btn btn-primary btn-group-lg center-block">SUBMIT MY SHOUTOUT</button>
+
+                    <br />
+
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />
+
+                    <br />
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />
+
+                    <br />
+
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />
+
+                    <br />
+
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />      
+                    <img src="holder.js/65x65" class="text-center" alt="sample image" />
+
+                    <br />
+                </div>
+            </div>
+
+            <div class="col-xs-12">
+                <ul class="nav nav-tabs" role="tablist" id="admin_tab">
+                    <li role="presentation" class="active">
+                        <a href="#facebook" aria-controls="home" role="tab" data-toggle="tab">
+                            Facebook
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#twitter" aria-controls="profile" role="tab" data-toggle="tab">
+                            Twitter
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="tab-content text-center">
+
+                    <div role="tabpanel" class="tab-pane active" id="facebook">
+                        <div class="fb-page" data-href="https://www.facebook.com/MYX.Philippines?fref=ts" data-width="100%" data-height="300" data-hide-cover="true" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/MYX.Philippines?fref=ts"><a href="https://www.facebook.com/MYX.Philippines?fref=ts">MYX Philippines</a></blockquote></div></div>
+
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="twitter">
+                        <a class="twitter-timeline" href="https://twitter.com/MYXphilippines" data-widget-id="593622914512982017">Tweets by @MYXphilippines</a>
+                        <script>!function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");</script>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 light_grey_bg">
+                <img class="center-block" src="holder.js/320x50" alt="sample ads"/>
+            </div>
+
+        </div>
+
+
+        <footer class="footer">
+            <h6 class="text-center">MYX SHOWS</h6>
+
+            <div class="col-xs-6 text-center">
+                Supermodelme: Femme Fatale
+                <br />
+                <br />
+                Bagged
+                <br />
+                <br />
+                I'm Asian American And...
+                <br />
+                <br />
+                Call to Cosplay
+                <br />
+                <br />
+                Cheap Date
+            </div>
+
+            <div class="col-xs-6 text-center">
+                Eat Your Words
+                <br />
+                <br />
+                Celebrity Scoop
+                <br />
+                <br />
+                Inkigayo
+                <br />
+                <br />
+                TKM: The Boston
+                <br />
+                <br />
+                K-Pop Incubation
+                <br />
+                <br />
+                Soompi Awards 2014
+            </div>
+
+
+            <div class="col-xs-6 text-center">
+                <h6>QUICK LINKS</h6>
+                About Us
+                <br />
+                Blog
+            </div>
+
+            <div class="col-xs-6 text-center">
+                <h6>STAY CONNECTED</h6>
+                <br />
+                <img src="images/twitter.jpg" class="img-circle" alt="twitter logo" height="50" width="50"/>
+                <img src="images/facebook.jpg" class="img-circle" alt="twitter logo" height="50" width="50"/>
+                <img src="images/instagram.jpg" class="img-circle" alt="twitter logo" height="50" width="50"/>
+                <img src="images/tumbler.jpg" class="img-circle" alt="twitter logo" height="50" width="50"/>
+            </div>
+
+        </footer>
+
+
+        <!--
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/holder.js"></script>
+    </body>
+</html>
